@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AdivinaNumero-LlorensPages</string>
+    <string name="Bienvenida">He pensado un número entre 1 y 100.</string>
+    <string name="Bienvenida2">¡Adivina cual es!</string>
+    <string name="Intenta">¡Inténtalo!</string>
+    <string name="errorMay">¿%1$d? ¡Uy! El número que he pensado es mayor.</string>
+    <string name="errorMen">¿%1$d? ¡Uy! El número que he pensado es menor.</string>
+    <string name="errorNum">Debe introducir un nº entero</string>
+    <string name="acierto">¡¡Has acertado!!</string>
+    <string name="buttonText">Probar</string>
+    <plurals name="intentos">
+        <item quantity="one">Lo ha intentado %d vez</item>
+        <item quantity="other">Lo ha intentado %d veces</item>
+    </plurals>
+</resources>

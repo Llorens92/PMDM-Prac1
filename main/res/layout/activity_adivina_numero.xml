@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/Bienvenida"
+        android:id="@+id/Bienvenida"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/Bienvenida2"
+        android:id="@+id/Bienvenida2"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/respuesta"
+        android:layout_weight="50"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:text="@plurals/intentos"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_above="@+id/CuadroTexto"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nºintentos"
+        android:visibility="invisible"
+        android:layout_weight="1"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <TextView
+        android:text="@string/Intenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Intenta"
+        android:layout_weight="1"
+        android:layout_gravity="left" />
+
+    <EditText
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/CuadroTexto"
+        android:layout_weight="1"/>
+
+    <Button
+        android:text="@string/buttonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonProb"
+        android:onClick="botonPulsado"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+</LinearLayout>
